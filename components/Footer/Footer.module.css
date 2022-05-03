@@ -1,0 +1,29 @@
+.footer {
+  composes: body from "../../styles/typo-web.module.css";
+  background-color: var(--background-secondary);
+  color: var(--text-subdued);
+  padding: 3rem 0rem;
+}
+
+.companyDetails {
+  margin-bottom: 2rem;
+  max-width: 320px;
+}
+
+.companyAddress {
+  margin-bottom: 1.5rem;
+}
+
+.companyContact {
+  margin-bottom: 0.5rem;
+}
+
+.footerLink {
+  display: block;
+  margin-top: 2rem;
+}
+
+.copyright {
+  composes: body-small from "../../styles/typo-web.module.css";
+  margin-top: 2rem;
+}

@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from "../styles/home.module.css";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <title>Cheq - Pay later, anywhere</title>
       </Head>
       <main>
-        <h1>Cheq - coming soon</h1>
+        <h1 className={styles.mainTitle}>Cheq - coming soon</h1>
         <Link href="/apply"><a>Apply now</a></Link>
       </main>        
     </>
