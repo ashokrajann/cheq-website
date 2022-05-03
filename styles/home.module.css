@@ -1,0 +1,3 @@
+.mainTitle {
+  composes: display-large from "./typo-web.module.css";
+}
