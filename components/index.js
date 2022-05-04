@@ -1,3 +1,4 @@
+export { HowItWorks } from "./HowItWorks/HowItWorks";
 export { About } from "./About/About";
 export { Partners } from "./Partners/Partners";
 export { SocialLinks } from "./SocialLinks/SocialLinks";

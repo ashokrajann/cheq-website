@@ -1,3 +1,9 @@
+.display-x-large {
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
 .display-large {
   font-size: 2.5rem;
   line-height: 1.2;
@@ -8,6 +14,12 @@
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 700;
+}
+
+.heading {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 .body {
