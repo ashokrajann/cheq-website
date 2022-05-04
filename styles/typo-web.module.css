@@ -4,6 +4,12 @@
   font-weight: 900;
 }
 
+.display-small {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
 .body {
   font-size: 1rem;
   line-height: 1.5;
@@ -12,10 +18,12 @@
 
 .body-small {
   font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 .button {
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.14;
   font-weight: 600;
 }

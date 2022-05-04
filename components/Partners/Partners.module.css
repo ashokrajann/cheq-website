@@ -1,0 +1,10 @@
+.partnerTitle {
+  composes: body-small from "../../styles/typo-web.module.css";
+  text-transform: uppercase;
+  color: var(--text-subdued);
+  margin-bottom: 1.5rem;
+}
+
+.partnerImage {
+  margin-right: 24px;
+}
