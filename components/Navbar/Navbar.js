@@ -10,12 +10,14 @@ function Navbar() {
       <Wrapper>
         <nav className={styles.mainNav}>
           <Link href="/">
-            <Image
-              src={cheqLogo}
-              alt="Cheq logo"
-              width={80}
-              height={40}
-            />
+            <a className={styles.brandLogo}>
+              <Image
+                src={cheqLogo}
+                alt="Cheq logo"
+                width={80}
+                height={40}
+              />
+            </a>
           </Link>
           <Link href="/apply">
             <a className={styles.applyBtn}>Join now</a>
