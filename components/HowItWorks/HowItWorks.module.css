@@ -1,0 +1,19 @@
+.sectionTitle {
+  composes: display-small from "../../styles/typo-web.module.css";
+  color: var(--text-neutral);
+  margin-bottom: 40px;
+}
+
+.stepContainer {
+  margin-bottom: 40px;
+}
+
+.stepNumber {
+  composes: display-x-large from "../../styles/typo-web.module.css";
+  color: #3A4348;
+}
+
+.stepDetails {
+  composes: heading from "../../styles/typo-web.module.css";
+  color: var(--text-neutral);
+}

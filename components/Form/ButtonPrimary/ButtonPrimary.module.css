@@ -1,0 +1,13 @@
+.mainButton {
+  display: inline-block;
+  composes: button from "../../../styles/typo-web.module.css";
+  background-color: var(--background-primary);
+  color: var(--text-onPrimary);
+  padding: 1rem 1.5rem;
+  border-radius: 2px;
+}
+
+.mainButtonImage {
+  margin-left: 2rem;
+  vertical-align: middle;
+}

@@ -1,21 +1,58 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
+import Image from "next/image";
+import { Highlights, JoinUs, JoinCheq,  About, HowItWorks, Partners, Wrapper, Features, ButtonPrimary } from "../components";
+import styles from "../styles/home.module.css";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-        <link rel="manifest" href="/favicon/site.webmanifest" />
         <title>Cheq - Pay later, anywhere</title>
-        <meta name="description" content="A buy now, pay later app that works with UPI. Simply scan any UPI QR code or enter your UPI ID to make payments via credit." />
       </Head>
-      <main>
-        <h1>Cheq - coming soon</h1>
-        <Link href="/apply"><a>Apply now</a></Link>
-      </main>        
+      <main className={styles.mainSection}>
+        <Wrapper>
+          <h1 className={styles.mainTitle}>Pay later, {'\n'} anywhere</h1>
+          <p className={styles.mainDescription}>Buy now, pay later at 15 Million+ merchants across India using UPI</p>
+          <ButtonPrimary label={"Join now"}/>
+        </Wrapper>
+        <div className={styles.mainImage}>
+          <Image 
+            src="/images/cheq_system.svg"
+            alt="Mobile app - Scans QR at store, pays securely, pay later, wins gems"
+            layout="fill"
+            quality={100}
+            priority
+          />
+        </div>
+      </main>
+
+      <section className={styles.partnerSection}>
+        <Partners />
+      </section>
+
+      <section className={styles.howItWorksSection}>
+        <HowItWorks />
+      </section>
+
+      <section className={styles.joinCheq}>
+        <JoinCheq />
+      </section>
+
+      <section className={styles.HighlightsSection}>
+        <Highlights />
+      </section>
+
+      <section className={styles.featureSection}>
+        <Features />
+      </section>
+
+      <section className={styles.joinUsSection}>
+        <JoinUs />
+      </section>
+
+      <section className={styles.aboutSection}>
+        <About />
+      </section>
     </>
   )
 }
