@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { JoinUs, JoinCheq,  About, HowItWorks, Partners, Wrapper, Features, ButtonPrimary } from "../components";
+import { Highlights, JoinUs, JoinCheq,  About, HowItWorks, Partners, Wrapper, Features, ButtonPrimary } from "../components";
 import styles from "../styles/home.module.css";
 
 export default function Home() {
@@ -36,6 +36,10 @@ export default function Home() {
 
       <section className={styles.joinCheq}>
         <JoinCheq />
+      </section>
+
+      <section className={styles.HighlightsSection}>
+        <Highlights />
       </section>
 
       <section className={styles.featureSection}>

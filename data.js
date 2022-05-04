@@ -19,6 +19,49 @@ const howItWorksData = [
   },
 ];
 
+const highlightsData = [
+  {
+    highlightNumber: 1,
+    highlightDetails: "I love Cheq as I can pay bills anytime, anywhere by just scanning the QR code.",
+    imageSrc: "/images/highlights/green.jpg",
+    alt: "Image of spends split and report",
+    userName: "Ankita",
+    userAge: 24,
+    tags: ["hassleFree", "widelyAccepted"],
+    theme: "#5CC993"
+  },
+  {
+    highlightNumber: 2,
+    highlightDetails: "Since I have started using Cheq, I have won rewards worth over ₹1,000 already!",
+    imageSrc: "/images/highlights/purple.jpg",
+    alt: "Image of credit profile and growth arrow",
+    userName: "Ankita",
+    userAge: 22,
+    tags: ["highRewards"],
+    theme: "#988FFF"
+  },
+  {
+    highlightNumber: 3,
+    highlightDetails: "Cheq's KYC process is so fast that it  gets approved within 10-15 minutes.",
+    imageSrc: "/images/highlights/yellow.jpg",
+    alt: "Image of multiple split bills",
+    userName: "Ankita",
+    userAge: 27,
+    tags: ["instantApproval"],
+    theme: "#EBDA7F"
+  },
+  {
+    highlightNumber: 4,
+    highlightDetails: "Cheq's secure swipe payment let's me pay easily without entering any PIN.",
+    imageSrc: "/images/highlights/pink.jpg",
+    alt: "Image of multiple split bills",
+    userName: "Ankita",
+    userAge: 31,
+    tags: ["convenient", "secure"],
+    theme: "#FF70BE"
+  },
+];
+
 const featuresData = [
   {
     featureNumber: 1,
@@ -67,4 +110,4 @@ const socialLinksData = [
   }
 ];
 
-export { howItWorksData, socialLinksData, featuresData };
+export { howItWorksData, socialLinksData, featuresData, highlightsData };

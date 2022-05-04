@@ -1,0 +1,38 @@
+.sectionTitle {
+  composes: display-small from "../../styles/typo-web.module.css";
+  color: var(--text-neutral);
+  margin-bottom: 40px;
+}
+
+.highlightCard {
+  position: relative;
+  margin-top: 48px;
+}
+
+.highlightDetails {
+  padding: 1.5rem 1rem;
+}
+
+.hashtags {
+  margin-bottom: 1.5rem;
+}
+
+.hashtag {
+  composes: body-small from "../../styles/typo-web.module.css";
+  padding: 0.5rem 0.75rem;
+  background-color: var(--background-secondary);
+  margin-right: 0.5rem;
+  color: var(--text-neutral);
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.highlightDescription {
+  composes: heading from "../../styles/typo-web.module.css";
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+.highlightImage {
+  position: relative;
+}
