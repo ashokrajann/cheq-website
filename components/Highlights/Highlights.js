@@ -17,7 +17,10 @@ function Highlights() {
           <div className={styles.highlightDetails}>
             <div className={styles.hashtags}>
               {card.tags.map(tag => (
-                <span kay={card} className={styles.hashtag}>#{tag}</span>
+                <span 
+                  key={tag} 
+                  className={styles.hashtag}
+                >#{tag}</span>
               ))}
             </div>
             <quote className={styles.highlightDescription}>"{card.highlightDetails}"</quote>
