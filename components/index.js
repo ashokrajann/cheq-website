@@ -1,3 +1,4 @@
+export { JoinCheq } from "./JoinCheq/JoinCheq";
 export { ButtonPrimary } from "./Form/ButtonPrimary/ButtonPrimary";
 export { JoinUs } from "./JoinUs/JoinUs";
 export { Features } from "./Features/Features";

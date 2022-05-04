@@ -1,17 +1,24 @@
 .sectionTitle {
   composes: display-small from "../../styles/typo-web.module.css";
-  color: var(--text-neutral);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-.sectionDescription {
-  composes: body from "../../styles/typo-web.module.css";
+.chargesAmount {
+  composes: display-large from "../../styles/typo-web.module.css";
+}
+
+.chargesType {
+  margin-bottom: 2rem;
+}
+
+.chargeStrike {
   color: var(--text-subdued);
-  margin-bottom: 3.5rem;
+  text-decoration: line-through;
+  font-weight: 400;
 }
 
 .offerContainer {
-  background-color: var(--background-secondary-subdued);
+  border: 1px solid var(--border-neutral);
   display: flex;
   padding: 1rem 0.75rem;
   margin-top: 1.5rem;
@@ -30,5 +37,4 @@
 
 .offerDescription {
   composes: body-small from "../../styles/typo-web.module.css";
-  color: var(--text-neutral)
 }

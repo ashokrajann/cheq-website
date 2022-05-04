@@ -28,11 +28,12 @@
 
 .partnerSection,
 .howItWorksSection,
-.joinUsSectionSecondary {
+.joinUsSection {
   background-color: var(--background-secondary);
   padding: 3rem 0rem;
 }
 
-.featureSection {
+.featureSection,
+.joinCheq {
   padding: 3rem 0rem;
 }
