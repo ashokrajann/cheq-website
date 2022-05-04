@@ -33,7 +33,10 @@ function SocialLinks() {
   return (
     <div className={styles.socialLinks}>
       {linksData.map(socialLink => (
-        <Link href={socialLink.url}>
+        <Link 
+          key={socialLink.name}
+          href={socialLink.url}
+        >
         <a 
           target="_blank" 
           className={styles.socialLinkImage}>
