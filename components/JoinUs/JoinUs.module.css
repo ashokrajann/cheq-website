@@ -1,0 +1,33 @@
+.sectionTitle {
+  color: var(--text-neutral);
+  margin-bottom: 1rem;
+}
+
+.sectionDescription {
+  composes: body from "../../styles/typo-web.module.css";
+  color: var(--text-subdued);
+  margin-bottom: 3.5rem;
+}
+
+.offerContainer {
+  background-color: var(--background-secondary-subdued);
+  display: flex;
+  padding: 1rem 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.offerDetails {
+  margin-left: 1rem;
+}
+
+.offerCaption {
+  composes: caption from "../../styles/typo-web.module.css";
+  color: var(--text-subdued);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.offerDescription {
+  composes: body-small from "../../styles/typo-web.module.css";
+  color: var(--text-neutral)
+}

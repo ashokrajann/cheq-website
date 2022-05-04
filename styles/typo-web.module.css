@@ -34,6 +34,12 @@
   font-weight: 400;
 }
 
+.caption {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 .button {
   font-size: 1rem;
   line-height: 1.14;

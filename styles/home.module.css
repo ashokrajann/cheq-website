@@ -15,20 +15,6 @@
   margin-bottom: 2rem;
 }
 
-.mainButton {
-  display: inline-block;
-  composes: button from "./typo-web.module.css";
-  background-color: var(--background-primary);
-  color: var(--text-onPrimary);
-  padding: 1rem 1.5rem;
-  border-radius: 2px;
-}
-
-.mainButtonImage {
-  margin-left: 2rem;
-  vertical-align: middle;
-}
-
 .mainImage {
   position: relative;
   width: 100%;
@@ -41,7 +27,8 @@
 }
 
 .partnerSection,
-.howItWorksSection {
+.howItWorksSection,
+.joinUsSectionSecondary {
   background-color: var(--background-secondary);
   padding: 3rem 0rem;
 }
