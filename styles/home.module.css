@@ -41,7 +41,11 @@
 }
 
 .partnerSection,
-.howItWorks {
+.howItWorksSection {
   background-color: var(--background-secondary);
+  padding: 3rem 0rem;
+}
+
+.featureSection {
   padding: 3rem 0rem;
 }

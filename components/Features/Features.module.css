@@ -1,0 +1,28 @@
+.sectionTitle {
+  composes: display-small from "../../styles/typo-web.module.css";
+}
+
+.featureContainer {
+  margin-top: 40px;
+  background-color: var(--background-subdued);
+  padding: 1.5rem 1.25rem;
+}
+
+.featureLabel {
+  composes: body-small from "../../styles/typo-web.module.css";
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--background-neutral);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.featureNumber {
+  composes: display-x-large from "../../styles/typo-web.module.css";
+  color: #3A4348;
+}
+
+.featureDetails {
+  composes: heading from "../../styles/typo-web.module.css";
+  margin-bottom: 1rem;
+}

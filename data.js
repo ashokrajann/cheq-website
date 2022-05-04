@@ -3,7 +3,7 @@ const howItWorksData = [
     stepNumber: 1,
     stepDetails: "Get your instant credit line based on your credit score",
     imageSrc: "/images/how_it_works/instant_credit.svg",
-    alt: "Image for credit score and digital credit line"
+    alt: "Image showing credit score and digital credit line"
   },
   {
     stepNumber: 2,
@@ -17,7 +17,28 @@ const howItWorksData = [
     imageSrc: "/images/how_it_works/repay_bills.svg",
     alt: "Image showing calendar and bills to pay"
   },
-]
+];
+
+const featuresData = [
+  {
+    featureNumber: 1,
+    featureDetails: "Get insights on your monthly spends",
+    imageSrc: "/images/features/insights.svg",
+    alt: "Image of spends split and report"
+  },
+  {
+    featureNumber: 2,
+    featureDetails: "Improve your credit score by paying bills on time",
+    imageSrc: "/images/features/credit_worthiness.svg",
+    alt: "Image of credit profile and growth arrow"
+  },
+  {
+    featureNumber: 3,
+    featureDetails: "Split your monthly bills into no-cost EMIs",
+    imageSrc: "/images/features/emis.svg",
+    alt: "Image of multiple split bills"
+  },
+];
 
 const socialLinksData = [
   {
@@ -44,6 +65,6 @@ const socialLinksData = [
     alt: "linkedIn logo",
     url: "https://www.instagram.com/?hl=en"
   }
-]
+];
 
-export { howItWorksData, socialLinksData };
+export { howItWorksData, socialLinksData, featuresData };

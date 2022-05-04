@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { About, HowItWorks, Partners, Wrapper } from "../components";
+import { About, HowItWorks, Partners, Wrapper, Features } from "../components";
 import styles from "../styles/home.module.css";
 
 export default function Home() {
@@ -43,8 +43,12 @@ export default function Home() {
         <Partners />
       </section>
 
-      <section className={styles.howItWorks}>
+      <section className={styles.howItWorksSection}>
         <HowItWorks />
+      </section>
+
+      <section className={styles.featureSection}>
+        <Features />
       </section>
 
       <section className={styles.aboutSection}>
