@@ -1,4 +1,4 @@
-.mainButton {
+.container {
   display: inline-block;
   composes: button from "../../../styles/typo-web.module.css";
   background-color: var(--background-primary);
@@ -7,7 +7,8 @@
   border-radius: 2px;
 }
 
-.mainButtonImage {
+.image {
   margin-left: 2rem;
+  display:inline-block;
   vertical-align: middle;
 }

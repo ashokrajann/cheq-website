@@ -5,9 +5,9 @@ import styles from "./ButtonPrimary.module.css";
 function ButtonPrimary({ label }) {
   return (
     <Link href="/apply">
-      <a className={styles.mainButton}>
-        {label}
-        <span className={styles.mainButtonImage}>
+      <a className={styles.container}>
+        <span className={styles.label}>{label}</span>
+        <span className={styles.image}>
           <Image 
             src="/icons/system/long_right.svg"
             alt="right icon"
