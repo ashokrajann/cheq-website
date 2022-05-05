@@ -13,8 +13,8 @@ function Footer() {
           <Image
             src={cheqLogo}
             alt="cheq logo"
-            width={80}
-            height={40}
+            width={64}
+            height={32}
           />
           <p className={styles.companyAddress}>Terrafin Solutions Private Limited #231, Eden Au Lac, Indiranagar - 560038</p>
           <p className={styles.companyContact}>CIN: U72200KA2021PTC149861</p>

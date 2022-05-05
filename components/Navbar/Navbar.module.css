@@ -9,6 +9,10 @@
   padding: 1rem 0rem;
 }
 
+.brandLogo {
+  display: inline-block;
+}
+
 .applyBtn {
   composes: button from "../../styles/typo-web.module.css";
   color: var(--text-onSecondary);

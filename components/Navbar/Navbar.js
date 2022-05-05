@@ -14,8 +14,8 @@ function Navbar() {
               <Image
                 src={cheqLogo}
                 alt="Cheq logo"
-                width={80}
-                height={40}
+                width={64}
+                height={32}
               />
             </a>
           </Link>
