@@ -23,7 +23,7 @@ function Highlights() {
                 >#{tag}</span>
               ))}
             </div>
-            <quote className={styles.highlightDescription}>"{card.highlightDetails}"</quote>
+            <q className={styles.highlightDescription}>{card.highlightDetails}</q>
             <p className={styles.userDetails}>{`- ${card.userName}, ${card.userAge}`}</p>
           </div>
           
