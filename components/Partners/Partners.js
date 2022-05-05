@@ -12,6 +12,7 @@ function Partners() {
           alt="Logo of UPI"
           width={72}
           height={24}
+          priority
         />
       </span>
       <Image
@@ -19,6 +20,7 @@ function Partners() {
         alt="Logo of Transcorp bank"
         width={136}
         height={24}
+        priority
       />
     </Wrapper>
   )

@@ -16,6 +16,7 @@ function Navbar() {
                 alt="Cheq logo"
                 width={64}
                 height={32}
+                priority
               />
             </a>
           </Link>

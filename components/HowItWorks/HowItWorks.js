@@ -19,6 +19,7 @@ function HowItWorks() {
             alt={card.alt}
             width={312}
             height={220}
+            priority
           />
         </div>
       ))}
