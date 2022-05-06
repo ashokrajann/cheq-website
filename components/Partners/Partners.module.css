@@ -6,5 +6,22 @@
 }
 
 .partnerImage {
+  display: inline-block;
   margin-right: 24px;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 640px) {
+
+  .container {
+    text-align: center;
+  }
+
+  .partnerImage {
+    padding: 0 12px;
+    transform: scale(1.1);
+  }
+  
 }
