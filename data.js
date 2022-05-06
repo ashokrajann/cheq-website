@@ -92,13 +92,13 @@ const socialLinksData = [
     name: "instagram",
     imageSrc: "/icons/social/instagram.svg",
     alt: "instagram logo",
-    url: "https://www.instagram.com/?hl=en"
+    url: "https://www.instagram.com/cheqit_/?hl=en"
   },
   {
     name: "twitter",
     imageSrc: "/icons/social/twitter.svg",
     alt: "twitter logo",
-    url: "https://www.instagram.com/?hl=en"
+    url: "https://twitter.com/cheqit_"
   },
   {
     name: "facebook",
@@ -110,7 +110,7 @@ const socialLinksData = [
     name: "linkedIn",
     imageSrc: "/icons/social/linkedIn.svg",
     alt: "linkedIn logo",
-    url: "https://www.instagram.com/?hl=en"
+    url: "https://in.linkedin.com/company/cheq-it"
   }
 ];
 
