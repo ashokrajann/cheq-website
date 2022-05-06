@@ -23,7 +23,8 @@ const highlightsData = [
   {
     highlightNumber: 1,
     highlightDetails: "I love Cheq as I can pay bills anytime, anywhere by just scanning the QR code.",
-    imageSrc: "/images/highlights/green.jpg",
+    imageSrc: "/images/highlights/green_user.jpg",
+    imageBg: "/images/highlights/green_bg.svg",
     alt: "Image of spends split and report",
     userName: "Ankita",
     userAge: 24,
@@ -33,7 +34,8 @@ const highlightsData = [
   {
     highlightNumber: 2,
     highlightDetails: "Since I have started using Cheq, I have won rewards worth over ₹1,000 already!",
-    imageSrc: "/images/highlights/purple.jpg",
+    imageSrc: "/images/highlights/purple_user.jpg",
+    imageBg: "/images/highlights/purple_bg.svg",
     alt: "Image of credit profile and growth arrow",
     userName: "Ankita",
     userAge: 22,
@@ -43,7 +45,8 @@ const highlightsData = [
   {
     highlightNumber: 3,
     highlightDetails: "Cheq's KYC process is so fast that it  gets approved within 10-15 minutes.",
-    imageSrc: "/images/highlights/yellow.jpg",
+    imageSrc: "/images/highlights/yellow_user.jpg",
+    imageBg: "/images/highlights/yellow_bg.svg",
     alt: "Image of multiple split bills",
     userName: "Ankita",
     userAge: 27,
@@ -53,7 +56,8 @@ const highlightsData = [
   {
     highlightNumber: 4,
     highlightDetails: "Cheq's secure swipe payment let's me pay easily without entering any PIN.",
-    imageSrc: "/images/highlights/pink.jpg",
+    imageSrc: "/images/highlights/pink_user.jpg",
+    imageBg: "/images/highlights/pink_bg.svg",
     alt: "Image of multiple split bills",
     userName: "Ankita",
     userAge: 31,
