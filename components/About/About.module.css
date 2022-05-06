@@ -6,3 +6,18 @@
 .aboutDescription {
   composes: body from "../../styles/typo-web.module.css";
 }
+
+
+
+/* Media queries */
+
+@media only screen and (min-width: 680px) {
+
+  .aboutTitle,
+  .aboutDescription {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 680px;
+  }
+
+}
