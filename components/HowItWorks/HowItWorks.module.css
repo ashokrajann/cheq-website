@@ -6,6 +6,7 @@
 
 .stepCard {
   margin-bottom: 40px;
+  max-width: 312px;
 }
 
 .stepNumber {
@@ -18,19 +19,32 @@
   color: var(--text-neutral);
 }
 
+.stepImage {
+  position: relative;
+  width: 312px;
+  height: 220px;
+}
+
 
 
 /* Media queries */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 640px) {
 
   .sectionTitle {
     text-align: center;
-    margin-bottom: 4rem;
   }
 
   .stepCard {
-    max-width: 312px;
+    margin: 40px auto;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .sectionTitle {
+    margin-bottom: 4rem;
   }
 
   .stepContainer {

@@ -13,14 +13,17 @@ function HowItWorks() {
             className={styles.stepCard}
             key={card.stepNumber}
           >
-            <h3 className={styles.stepNumber}>{card.stepNumber}</h3>
-            <p className={styles.stepDetails}>{card.stepDetails}</p>
-            <Image 
-              src={card.imageSrc}
-              alt={card.alt}
-              width={312}
-              height={220}
-            />
+            <div className={styles.stepCardInfo}>
+              <h3 className={styles.stepNumber}>{card.stepNumber}</h3>
+              <p className={styles.stepDetails}>{card.stepDetails}</p>
+            </div>
+            <div className={styles.stepImage}>
+              <Image 
+                src={card.imageSrc}
+                alt={card.alt}
+                layout="fill"
+              />
+            </div>
           </div>
         ))}
       </div>
