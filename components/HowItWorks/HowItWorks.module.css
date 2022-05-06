@@ -4,7 +4,7 @@
   margin-bottom: 40px;
 }
 
-.stepContainer {
+.stepCard {
   margin-bottom: 40px;
 }
 
@@ -16,4 +16,26 @@
 .stepDetails {
   composes: heading from "../../styles/typo-web.module.css";
   color: var(--text-neutral);
+}
+
+
+
+/* Media queries */
+
+@media only screen and (min-width: 1024px) {
+
+  .sectionTitle {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .stepCard {
+    max-width: 312px;
+  }
+
+  .stepContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
