@@ -1,3 +1,8 @@
+.container {
+  max-width: 360px;
+  margin: 0px auto;
+}
+
 .sectionTitle {
   composes: display-small from "../../styles/typo-web.module.css";
   margin-bottom: 2rem;
@@ -18,7 +23,7 @@
 }
 
 .offerContainer {
-  border: 1px solid var(--border-neutral);
+  background-color: var(--background-subdued);
   display: flex;
   padding: 1rem 0.75rem;
   margin-top: 1.5rem;
@@ -37,4 +42,15 @@
 
 .offerDescription {
   composes: body-small from "../../styles/typo-web.module.css";
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 640px) {
+
+  .container {
+    border: 1px solid var(--border-neutral);
+    padding: 1.5rem;
+  }
+
 }
