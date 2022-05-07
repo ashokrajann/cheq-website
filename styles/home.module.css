@@ -1,25 +1,6 @@
-.mainSection {
+.mainSection { 
   background-color: var(--background-secondary);
-  padding-top: 3rem;
-}
-
-.mainTitle {
-  composes: display-large from "./typo-web.module.css";
-  color: var(--text-neutral);
-  margin-bottom: 1rem;
-}
-
-.mainDescription {
-  composes: body from "./typo-web.module.css";
-  color: var(--text-subdued);
-  margin-bottom: 2rem;
-}
-
-.mainImage {
-  position: relative;
-  width: 100%;
-  height: 360px;
-  margin-top: 64px;
+  height: 720px;
 }
 
 .aboutSection {
@@ -28,7 +9,6 @@
 
 .partnerSection,
 .howItWorksSection,
-.joinUsSection,
 .HighlightsSection {
   background-color: var(--background-secondary);
   padding: 3rem 0rem;
@@ -37,4 +17,27 @@
 .featureSection,
 .joinCheq {
   padding: 3rem 0rem;
+}
+
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+
+  .aboutSection {
+    padding: 12rem 0rem;
+  }
+
+  .howItWorksSection,
+  .HighlightsSection {
+    background-color: var(--background-secondary);
+    padding: 5rem 0rem;
+  }
+
+  .featureSection,
+  .joinCheq {
+    padding: 5rem 0rem;
+  }
+
 }

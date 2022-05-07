@@ -1,5 +1,8 @@
 .navContainer {
   background-color: var(--background-secondary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .mainNav {
@@ -7,6 +10,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0rem;
+}
+
+.brandLogo {
+  display: inline-block;
 }
 
 .applyBtn {

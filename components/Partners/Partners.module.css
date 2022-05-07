@@ -6,5 +6,24 @@
 }
 
 .partnerImage {
+  display: inline-block;
   margin-right: 24px;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 640px) {
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partnerImage {
+    margin-right: 0px;
+    margin-left: 32px;
+    transform: scale(1.1);
+  }
+  
 }

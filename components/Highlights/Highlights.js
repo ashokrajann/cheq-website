@@ -23,17 +23,25 @@ function Highlights() {
                 >#{tag}</span>
               ))}
             </div>
-            <quote className={styles.highlightDescription}>"{card.highlightDetails}"</quote>
+            <q className={styles.highlightDescription}>{card.highlightDetails}</q>
             <p className={styles.userDetails}>{`- ${card.userName}, ${card.userAge}`}</p>
           </div>
           
           <div className={styles.highlightImage}>
             <Image 
+              src={card.imageBg}
+              alt={card.alt}
+              layout="fill"
+              objectFit="contain"
+              objectPosition="top"
+            />
+            {/* <Image 
               src={card.imageSrc}
               alt={card.alt}
-              width={312}
-              height={240}
-            />
+              width={340}
+              height={420}
+              layout="responsive"
+            /> */}
           </div>
           
         </div>

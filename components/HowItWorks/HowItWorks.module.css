@@ -4,8 +4,9 @@
   margin-bottom: 40px;
 }
 
-.stepContainer {
+.stepCard {
   margin-bottom: 40px;
+  max-width: 312px;
 }
 
 .stepNumber {
@@ -16,4 +17,39 @@
 .stepDetails {
   composes: heading from "../../styles/typo-web.module.css";
   color: var(--text-neutral);
+}
+
+.stepImage {
+  position: relative;
+  width: 312px;
+  height: 220px;
+}
+
+
+
+/* Media queries */
+
+@media only screen and (min-width: 640px) {
+
+  .sectionTitle {
+    text-align: center;
+  }
+
+  .stepCard {
+    margin: 40px auto;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .sectionTitle {
+    margin-bottom: 4rem;
+  }
+
+  .stepContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }

@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Highlights, JoinUs, JoinCheq,  About, HowItWorks, Partners, Wrapper, Features, ButtonPrimary } from "../components";
+import { Highlights, JoinUs, JoinCheq,  About, HowItWorks, Partners, Features, Introduction } from "../components";
 import styles from "../styles/home.module.css";
 
 export default function Home() {
@@ -10,20 +9,7 @@ export default function Home() {
         <title>Cheq - Pay later, anywhere</title>
       </Head>
       <main className={styles.mainSection}>
-        <Wrapper>
-          <h1 className={styles.mainTitle}>Pay later, {'\n'} anywhere</h1>
-          <p className={styles.mainDescription}>Buy now, pay later at 15 Million+ merchants across India using UPI</p>
-          <ButtonPrimary label={"Join now"}/>
-        </Wrapper>
-        <div className={styles.mainImage}>
-          <Image 
-            src="/images/cheq_system.svg"
-            alt="Mobile app - Scans QR at store, pays securely, pay later, wins gems"
-            layout="fill"
-            quality={100}
-            priority
-          />
-        </div>
+        <Introduction />
       </main>
 
       <section className={styles.partnerSection}>

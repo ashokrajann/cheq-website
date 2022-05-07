@@ -14,12 +14,13 @@ function Navbar() {
               <Image
                 src={cheqLogo}
                 alt="Cheq logo"
-                width={80}
-                height={40}
+                width={64}
+                height={32}
+                priority
               />
             </a>
           </Link>
-          <Link href="/apply">
+          <Link href="https://api.whatsapp.com/send/?phone=919845563750&text=Hi+I+want+to+signup&app_absent=0">
             <a className={styles.applyBtn}>Join now</a>
           </Link>
         </nav>

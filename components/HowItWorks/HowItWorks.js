@@ -7,21 +7,26 @@ function HowItWorks() {
   return (
     <Wrapper>
       <h2 className={styles.sectionTitle}>How it works</h2>
-      {howItWorksData.map(card => (
-        <div 
-          className={styles.stepContainer}
-          key={card.stepNumber}
-        >
-          <h3 className={styles.stepNumber}>{card.stepNumber}</h3>
-          <p className={styles.stepDetails}>{card.stepDetails}</p>
-          <Image 
-            src={card.imageSrc}
-            alt={card.alt}
-            width={312}
-            height={220}
-          />
-        </div>
-      ))}
+      <div className={styles.stepContainer}>
+        {howItWorksData.map(card => (
+          <div 
+            className={styles.stepCard}
+            key={card.stepNumber}
+          >
+            <div className={styles.stepCardInfo}>
+              <h3 className={styles.stepNumber}>{card.stepNumber}</h3>
+              <p className={styles.stepDetails}>{card.stepDetails}</p>
+            </div>
+            <div className={styles.stepImage}>
+              <Image 
+                src={card.imageSrc}
+                alt={card.alt}
+                layout="fill"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
     </Wrapper>
   ) 
 }

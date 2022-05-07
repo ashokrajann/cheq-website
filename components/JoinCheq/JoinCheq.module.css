@@ -1,3 +1,12 @@
+.container {
+  max-width: 360px;
+  margin: 0px auto;
+}
+
+.banner {
+  display: none;
+}
+
 .sectionTitle {
   composes: display-small from "../../styles/typo-web.module.css";
   margin-bottom: 2rem;
@@ -18,7 +27,7 @@
 }
 
 .offerContainer {
-  border: 1px solid var(--border-neutral);
+  background-color: var(--background-subdued);
   display: flex;
   padding: 1rem 0.75rem;
   margin-top: 1.5rem;
@@ -37,4 +46,55 @@
 
 .offerDescription {
   composes: body-small from "../../styles/typo-web.module.css";
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 640px) {
+
+  .container {
+    border: 1px solid var(--border-neutral);
+  }
+
+  .actionForm {
+    padding: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .container {
+    padding: 0rem;
+    border: 1px solid var(--border-neutral);
+    display: flex;
+    max-width: 720px;
+  }
+
+  .banner {
+    display: block;
+    position: relative;
+    width: 50%;
+    background-color: var(--background-subdued);
+    padding-top: 7.5rem;
+  }
+
+  .actionForm {
+    padding: 3rem 1.5rem;
+  }
+
+  .bannerTitle {
+    composes: display-large from "../../styles/typo-web.module.css";
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .bannerTitle:nth-of-type(2) { 
+    opacity: 0.4;
+  }
+
+  .bannerTitle:nth-of-type(3) { 
+    opacity: 0.2;
+  }
+  
 }

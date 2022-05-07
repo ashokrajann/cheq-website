@@ -4,15 +4,15 @@
 
 .featureContainer {
   margin-top: 40px;
-  background-color: var(--background-subdued);
-  padding: 1.5rem 1.25rem;
+  padding: 1.5rem 0rem;
+  max-width: 400px;
 }
 
 .featureLabel {
   composes: body-small from "../../styles/typo-web.module.css";
   display: inline-block;
   padding: 0.5rem 0.75rem;
-  background-color: var(--background-neutral);
+  background-color: var(--background-subdued);
   margin-bottom: 0.75rem;
   text-transform: uppercase;
 }
@@ -25,4 +25,53 @@
 .featureDetails {
   composes: heading from "../../styles/typo-web.module.css";
   margin-bottom: 1rem;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 640px) {
+
+  .sectionTitle {
+    text-align: center;
+  }
+
+  .featureContainer {
+    margin: 80px auto;
+    background-color: var(--background-neutral);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 880px;
+  }
+
+  .featureContainer:nth-last-of-type(2) {
+    flex-direction: row-reverse;
+  }
+
+  .featureInfo {
+    width: 50%;
+    padding: 0rem 2rem;
+  }
+
+  .featureDetails {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .featureImage {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .featureDetails {
+    font-size: 2rem;
+  }
+
+  .featureInfo {
+    padding: 0rem 2rem;
+  }
+
 }

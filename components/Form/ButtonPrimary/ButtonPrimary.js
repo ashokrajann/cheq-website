@@ -4,10 +4,10 @@ import styles from "./ButtonPrimary.module.css";
 
 function ButtonPrimary({ label }) {
   return (
-    <Link href="/apply">
-      <a className={styles.mainButton}>
-        {label}
-        <span className={styles.mainButtonImage}>
+    <Link href="https://api.whatsapp.com/send/?phone=919845563750&text=Hi+I+want+to+signup&app_absent=0">
+      <a className={styles.container}>
+        <span className={styles.label}>{label}</span>
+        <span className={styles.image}>
           <Image 
             src="/icons/system/long_right.svg"
             alt="right icon"
