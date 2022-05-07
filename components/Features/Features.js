@@ -12,18 +12,23 @@ function Features() {
           className={styles.featureContainer}
           key={feature.featureNumber}
         >
-          {(feature.featureNumber > 1) ? 
-            <p className={styles.featureLabel}>coming soon</p>
-            :
-            null
-          }
-          <p className={styles.featureDetails}>{feature.featureDetails}</p>
-          <Image 
-            src={feature.imageSrc}
-            alt={feature.alt}
-            width={280}
-            height={220}
-          />
+          <div className={styles.featureInfo}>
+            {(feature.featureNumber > 1) ? 
+              <p className={styles.featureLabel}>coming soon</p>
+              :
+              null
+            }
+            <p className={styles.featureDetails}>{feature.featureDetails}</p>
+          </div>
+          <div className={styles.featureImage}>
+            <Image 
+              src={feature.imageSrc}
+              alt={feature.alt}
+              width={280}
+              height={220}
+              layout="responsive"
+            />
+          </div>
         </div>
       ))}
     </Wrapper>
