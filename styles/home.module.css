@@ -18,3 +18,26 @@
 .joinCheq {
   padding: 3rem 0rem;
 }
+
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+
+  .aboutSection {
+    padding: 12rem 0rem;
+  }
+
+  .howItWorksSection,
+  .HighlightsSection {
+    background-color: var(--background-secondary);
+    padding: 5rem 0rem;
+  }
+
+  .featureSection,
+  .joinCheq {
+    padding: 5rem 0rem;
+  }
+
+}
