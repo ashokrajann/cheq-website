@@ -1,3 +1,4 @@
+export { Introduction } from "./Introduction/Introduction";
 export { Highlights } from "./Highlights/Highlights";
 export { JoinCheq } from "./JoinCheq/JoinCheq";
 export { ButtonPrimary } from "./Form/ButtonPrimary/ButtonPrimary";
