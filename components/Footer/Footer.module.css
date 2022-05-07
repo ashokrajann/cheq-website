@@ -27,3 +27,51 @@
   composes: body-small from "../../styles/typo-web.module.css";
   margin-top: 2rem;
 }
+
+.actions {
+  display: none;
+}
+
+.actionTitle {
+  composes: display-small from "../../styles/typo-web.module.css";
+  color: var(--text-neutral);
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 1024px) {
+
+  .primarySection {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .actions {
+    display: block;
+  }
+
+  .footerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid var(--border--secondary-subdued);
+    padding: 2rem 0rem;
+  }
+
+  .footerLinks {
+    display: flex;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+
+  .footerLink {
+    margin-top: 0rem;
+    margin-left: 1rem;
+  }
+
+}
