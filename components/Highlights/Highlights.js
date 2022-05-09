@@ -33,15 +33,15 @@ function Highlights() {
               alt={card.alt}
               layout="fill"
               objectFit="contain"
-              objectPosition="top"
+              objectPosition="center"
             />
-            {/* <Image 
+            <Image 
               src={card.imageSrc}
               alt={card.alt}
-              width={340}
-              height={420}
-              layout="responsive"
-            /> */}
+              layout="fill"
+              objectFit="contain"
+              objectPosition="bottom"
+            />
           </div>
           
         </div>
