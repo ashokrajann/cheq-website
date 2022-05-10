@@ -15,7 +15,7 @@ COPY . .
 RUN npm run build
 
 #Expose PORT on container
-EXPOSE 3000
+EXPOSE 80
 
 #Start app
 CMD ["npm", "start"]
