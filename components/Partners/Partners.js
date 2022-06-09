@@ -16,7 +16,7 @@ function Partners() {
             priority
           />
         </span>
-        <span className={styles.partnerImage}>
+        {/* <span className={styles.partnerImage}>
           <Image
             src="/images/transcorp_logo.svg"
             alt="Logo of Transcorp bank"
@@ -24,7 +24,7 @@ function Partners() {
             height={24}
             priority
           />
-        </span>
+        </span> */}
       </div>
     </Wrapper>
   )
