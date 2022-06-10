@@ -38,7 +38,7 @@ const highlightsData = [
     imageBg: "/images/highlights/purple_bg.svg",
     alt: "Photo of Abhinav",
     userName: "Abhinav",
-    userAge: 30,
+    userAge: 28,
     tags: ["moreRewards"],
     theme: "#988FFF"
   },
