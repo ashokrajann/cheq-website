@@ -20,9 +20,13 @@ function Navbar() {
               />
             </a>
           </Link>
-          <Link href="https://api.whatsapp.com/send/?phone=919845563750&text=Hi+I+want+to+signup&app_absent=0">
-            <a className={styles.applyBtn}>Join now</a>
-          </Link>
+          {/* <Link href="https://api.whatsapp.com/send/?phone=919845563750&text=Hi+I+want+to+signup&app_absent=0"> */}
+            <a 
+              className={styles.applyBtn}
+              href="https://play.google.com/store/apps/details?id=com.acecredit.android"
+              target="_blank"
+            >Join now</a>
+          {/* </Link> */}
         </nav>
       </Wrapper>
     </header>
